@@ -1,0 +1,46 @@
+/* Default Light Mode */
+body {
+  background-color: #ffffff;
+  color: #000000;
+  transition: 0.4s;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 50px;
+}
+
+/* Container box */
+.container {
+  max-width: 500px;
+  margin: auto;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Dark Mode */
+body.dark-mode {
+  background-color: #121212;
+  color: #f1f1f1;
+}
+
+/* Toggle Button */
+#toggle-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+#toggle-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Icon spacing */
+#theme-icon {
+  margin-right: 10px;
+}
